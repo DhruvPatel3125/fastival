@@ -1,0 +1,99 @@
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-section li:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.social-icons span {
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.fb-button {
+  margin-top: 5px;
+  background-color: #4267B2;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.newsletter input {
+  padding: 8px;
+  margin-top: 10px;
+  margin-right: 5px;
+  width: 60%;
+}
+
+.newsletter button {
+  padding: 8px 10px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding: 20px 0;
+  margin-top: 30px;
+  background-color: #1a1a1a;   text-align: center;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 13px;
+  color: #888888;
+}
+
+.cards img {
+  width: 50px;
+  margin-left: 10px;
+}

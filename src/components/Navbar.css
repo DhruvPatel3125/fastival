@@ -1,0 +1,57 @@
+.navbar {
+  background-color: #e3dcdc;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 20px;   /* ✅ spacing between links */
+}
+
+.navbar-right {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #000000;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}

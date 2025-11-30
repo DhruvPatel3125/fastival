@@ -1,49 +1,32 @@
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-body {
-  background-color: #ffffff;
-}
-
-.wedding-shop {
-  background-color: #fff8f0;   color: #000000;   padding: 2rem;
+.cart-container {
+  background-color: #fff8f0;
+  color: #000000;
+  padding: 2rem;
   min-height: 100vh;
   font-family: 'Segoe UI', sans-serif;
 }
 
-.wedding-section {
-  background-color: #fff8f0;  
-   padding: 1.5rem;
-  border-radius: 12px;
-  margin-bottom: 2.5rem;
-}
-
-.wedding-section h3 {
-  color: #000000;  
-   font-size: 1.8rem;
-  margin-bottom: 1rem;
+.cart-container h2 {
+  color: #000000;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #d4af37;
+  display: inline-block;
   padding-bottom: 0.3rem;
-  border-bottom: 2px solid #d4af37;  
-   display: inline-block;
 }
 
-
-.card-container {
+.cart-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem;
   margin-top: 1rem;
+  justify-content: center;
 }
 
-.product-card {
+.cart-card {
   background-color: #ffffff;
-  color: #000000;   
+  color: #000000;
   border-radius: 10px;
   padding: 1rem;
   width: 249px;
@@ -53,31 +36,40 @@ body {
   border: 1px solid #ddd;
 }
 
-.product-card img {
+.cart-card:hover {
+  transform: translateY(-5px);
+}
+
+.cart-image img {
   width: 100%;
   height: 180px;
   object-fit: cover;
   border-radius: 8px;
 }
 
-.product-card h4 {
+.cart-card h4 {
   margin: 0.6rem 0 0.3rem;
   font-size: 1.1rem;
   color: #000000;
 }
 
-.product-card p {
+.cart-card p {
   margin: 0.2rem 0 0.8rem;
   color: #000000;
   font-weight: 500;
 }
 
-.product-card button {
+.cart-card button {
   background-color: #302e29;
-  color: #f5f0eb;   border: none;
+  color: #f5f0eb;
+  border: none;
   padding: 0.5rem 1.2rem;
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.2s;
+}
+
+.cart-card button:hover {
+  background-color: #44413b;
 }
